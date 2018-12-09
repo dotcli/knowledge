@@ -1,8 +1,8 @@
 # Introduction
 
-This is where I document and organize things I know. Hope you find something useful. Common topics are programming, design, and music.
+This is where I document and organize, well, everything I know. Common topics are programming, design, and music.
 
-I try to make sure everything documented here are hand-typed and contains somewhat original insights, instead of copy-paste from the net.
+I try to keep the contents here somewhat original. Snippets, bookmarks, and quotes from the net can be found over on the [Memex](https://dotcli.github.io/memex/) instead.
 
-For net resources, bookmarks related to each topic, you can find them on the [Memex](https://dotcli.github.io/memex/).
+Hope you find something helpful.
 
