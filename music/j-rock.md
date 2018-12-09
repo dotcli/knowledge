@@ -1,6 +1,4 @@
-日系摇滚作曲特点
-========
-
+# 日系摇滚作曲特点
 
 ## 节奏
 
@@ -8,7 +6,7 @@
 
 可以让某个乐器的riff和稳定节奏稍微差点，但又和得起来。比如在四四拍的节奏里放以三个四分音节为一组的riff
 
-也有不少走funk风格的乐队(polkadot stingray, sambomaster)，用很多16分音符。
+也有不少走funk风格的乐队\(polkadot stingray, sambomaster\)，用很多16分音符。
 
 ## 结构
 
@@ -38,15 +36,15 @@
 
 高低八度按法也经常用到（AKG）
 
-#### solo
+### solo
 
 不需要太花哨
 
 常用高低八度按法来弹一段介于旋律和riff之间的东西
 
+### 效果器
 
-#### 效果器
-phaser(慢)，reverb, chorus
+phaser\(慢\)，reverb, chorus
 
 ## 贝斯
 
@@ -54,15 +52,13 @@ phaser(慢)，reverb, chorus
 
 旋律性强
 
-
-
-
 ## 参考乐队
 
-```
+```text
 きのこ帝国
 クリープハイプ
 フレデリック
 ASIAN KUNGFU GENERATION
 POLKADOT STINGRAY
 ```
+
