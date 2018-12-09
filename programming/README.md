@@ -1,6 +1,6 @@
 # programming
 
-[#code](https://dotcli.github.io/memex/#tag-code)
+[\#code](https://dotcli.github.io/memex/#tag-code)
 
 ## DRY principle
 
