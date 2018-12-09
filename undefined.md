@@ -1,4 +1,0 @@
-# Everything I Know
-
-
-
