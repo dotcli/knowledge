@@ -8,5 +8,4 @@
 * [programming](programming/README.md)
   * [programming](programming/programming.md)
   * [Unity Study Guide](programming/unity3d.md)
-* [Everything I Know](undefined.md)
 
