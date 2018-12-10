@@ -1,5 +1,7 @@
 # Unity Study Guide
 
+> [\#unity3d](https://dotcli.github.io/memex/#tag-unity3d)
+
 ## Programming
 
 ### Unity's component basics
@@ -158,6 +160,18 @@ Incomplete.
 ### Audio
 
 Incomplete.
+
+## Project Management
+
+### Collaborating
+
+When working as a team, with multiple developers working in the same Unity project, it's best to keep the _scene_ files simple & clean, and instantiate everything by code.
+
+The reason for this approach is that version control tools work much better when dealing with code. The commits would be much easier to understand, and do code review on. Also, a scene file is just one single file, and everyone doing all their changes in there would inevitably cause conflicts.
+
+### Version Control
+
+Remember to set Unity to store non-code data as text instead of binary. This would ensure smoother version control. This can be done in the _Editor Setting_, by checking _Visible Meta Files_.
 
 ## Considerations for VR
 
