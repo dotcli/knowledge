@@ -9,4 +9,6 @@
   * [日系摇滚作曲特点](music/j-rock.md)
 * [programming](programming/README.md)
   * [Unity Study Guide](programming/unity3d.md)
-* [rollerblading](rollerblading/README.md)
+* [rollerblading](rollerblading.md)
+* [tools](tools.md)
+
