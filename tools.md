@@ -10,7 +10,9 @@ description: '"Our tools make us."'
 
 I've yet to develop a concrete philosophy when it comes to choosing or developing software tools. But there are a few guidelines I find helpful to keep in mind.
 
-**Speed & accessibility.** When a tool becomes part of who we are, their speed is directly tied to our mental performance. If it takes 5 seconds to load, and 4 buttons to save anything, we would feel sluggish, as our flowing thoughts get artificially constrained and slowed down.
+**Speed.** When a tool becomes part of who we are, their speed is directly tied to our mental performance. If it takes 5 seconds to load, and 4 buttons to save anything, we would feel sluggish, as our flowing thoughts get artificially constrained and slowed down.
+
+**Offline functionality**. Internet speed, and regulation, is often a factor we have limited controls over. Therefore our tools need to be resilient, to work without the internet; else we won't work without the internet.
 
 **Intentionally limiting accessibility**. If I separate the type of tools on my desktop v.s. the ones on mobile phone, then I can make distinguish between my desktop and phone, honing them for different purposes. When I start using them, I would have a singular purpose, and not be distracted. This is especially helpful for work / life balance.
 
