@@ -18,7 +18,7 @@ I've yet to develop a concrete philosophy when it comes to choosing or developin
 
 **Plain text storage.** Of all the storage options, plain text is the most human-readable, transportable, and enduring format.
 
-> Related: [Gwern's notes on how his website is built](http://www.gwern.net/About#fnref15)
+> Related: [Gwern's notes on why his website is built as a static site.](http://www.gwern.net/About#fnref15)
 
 ### Task Management
 
