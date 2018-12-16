@@ -16,26 +16,28 @@ Download: [.GPX](https://www.dropbox.com/s/t7hi820uphfrke6/Tuplet%20Practice.gpx
 
 Some tips on practicing how to solo:
 
-__Follow the interest curve.__ The interest curve represents the interest / intensity / engagement of audiences over time, and applies to many types of media. It looks like this:
+**Follow the interest curve.** The interest curve represents the interest / intensity / engagement of audiences over time, and applies to many types of media. It looks like this:
 
 ![Interest Curve of Star Wars: A New Hope](../.gitbook/assets/pacing_01_star_wars.gif)
 
-Notice how the tension builds up over time, and becomes most intense right before the ending (Obi-Wan killed, trench run, Use the Force), and simmers down in the ending to provide a sense of resolution (award ceremony).
+Notice how the tension builds up over time, and becomes most intense right before the ending \(Obi-Wan killed, trench run, Use the Force\), and simmers down in the ending to provide a sense of resolution \(award ceremony\).
 
 In a 4-bar phrase, do something interesting that adds tension at the 3rd bar; resolve the tension and bring it home at the last bar.
 
 > Another interesting property is that interest curve is fractal; it applies to the flow of tension to a solo, to the structure of the song that solo is in, and to the action of striking the string with your guitar pick, all at the same time.
+>
+> Related: [Extra Credits video on pacing for game design](https://www.youtube.com/watch?v=5LScL4CWe5E&vl=en); [起承転結](https://en.wikipedia.org/wiki/Kishōtenketsu)
 
-> Related: [Extra Credits video on pacing for game design](https://www.youtube.com/watch?v=5LScL4CWe5E&vl=en), [起承転結](https://en.wikipedia.org/wiki/Kish%C5%8Dtenketsu)
+**Add artificial constraints to your solo.** Limitation breeds creativity. Some limiters to experiment with:
 
-__Add artificial constraints to your solo.__ Limitation breeds creativity. Some limiters to experiment with:
-- Play a solo with long, sustained notes only. Nothing shorter than a half note.
-- Play a solo with short notes only. Nothing longer than an 8th note.
-- Play a solo where you are only allowed to play 9 notes each phrase (every 4 bars).
-- Play a solo where the highest and lowest notes are within 1 octave.
+* Play a solo with long, sustained notes only. Nothing shorter than a half note.
+* Play a solo with short notes only. Nothing longer than an 8th note.
+* Play a solo where you are only allowed to play 9 notes each phrase \(every 4 bars\).
+* Play a solo where the highest and lowest notes are within 1 octave.
 
-__Play along.__ Find a song you like and play along with it. You could try following the melody and solo. Use your ears a lot.
+**Play along.** Find a song you like and play along with it. You could try following the melody and solo. Try not to look up tabs when you do this, instead use your ears a lot.
 
-__Keep the chords in mind.__ Analyze the relationship between the scales and the underlying chords.
+**Keep the chords in mind.** Analyze the relationship between the scales and the underlying chords.
 
-__Stick to the rhythm, no matter what.__ If you make a mistake, don't try to fix it, just keep playing.
+**Stick to the rhythm, no matter what.** If you make a mistake, don't try to fix it, just keep playing.
+
