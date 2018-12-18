@@ -1,12 +1,8 @@
----
-description: '"Our tools make us."'
----
-
 # tools
-
 > [\#tool](https://dotcli.github.io/memex/#type-tool)
 
 ## Philosophy
+> "Our tools make us."
 
 I've yet to develop a concrete philosophy when it comes to choosing or developing software tools. But there are a few guidelines I find helpful to keep in mind.
 

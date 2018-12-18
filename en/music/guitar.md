@@ -18,7 +18,7 @@ Some tips on practicing how to solo:
 
 **Follow the interest curve.** The interest curve represents the interest / intensity / engagement of audiences over time, and applies to many types of media. It looks like this:
 
-![Interest Curve of Star Wars: A New Hope](../.gitbook/assets/pacing_01_star_wars.gif)
+![Interest Curve of Star Wars: A New Hope](../../.gitbook/assets/pacing_01_star_wars.gif)
 
 Notice how the tension builds up over time, and becomes most intense right before the ending \(Obi-Wan killed, trench run, Use the Force\), and simmers down in the ending to provide a sense of resolution \(award ceremony\).
 

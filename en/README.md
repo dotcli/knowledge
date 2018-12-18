@@ -1,10 +1,5 @@
----
-description: >-
-  "Have you tried writing down everything you know about everything?" -
-  @neauoire
----
-
 # Introduction
+> "Have you tried writing down everything you know about everything?" - @neauoire
 
 This is where I document and organize, well, everything I know. Common topics are programming, design, and music.
 
