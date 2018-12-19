@@ -1,0 +1,20 @@
+{
+  "name": "knowledge",
+  "version": "1.0.0",
+  "description": "What do I know? Do I know things? Let's find out!",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve . docs",
+    "build": "gitbook build . docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotcli/knowledge.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotcli/knowledge/issues"
+  },
+  "homepage": "https://github.com/dotcli/knowledge#readme"
+}
