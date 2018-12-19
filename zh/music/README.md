@@ -6,20 +6,20 @@
 
 #### 五度图
 
-When it comes to harmonic analysis, circle of fifth is one of the most important concept to remember.
+五度图在和声分析中非常好用。
 
-![Circle of Fifth Deluxe](../../.gitbook/assets/circle_of_fifths_deluxe_4.svg)
+![豪华版五度图](../../.gitbook/assets/circle_of_fifths_deluxe_4.svg)
 
-Try to remember the circular sequence both clockwise and counterclockwise.
+把顺时针和逆时针方向的顺序分别记下来。
 
 ```text
 C G D A E B Gb Db Ab Eb Bb F C
 C F Bb Eb Ab Db Gb B E A D G C
 ```
 
-When looking at the chord changes in a piece of music, think about their positions on the circle of fifth, and observe how the song "moves" around the circle.
+分析一首歌的和声走向时可以去注意和弦在五度图上的位置，变换和弦时的移动方式。
 
-In jazz, harmonics are pushed to its limit, and it makes analysis extra fun. Vox has a [wonderful video](https://www.youtube.com/watch?v=62tIvfP9A2w) on John Coltrane's Giant Steps and Circle of Fifth. Speaking of which, here's Coltrane's study of the Circle.
+用五度图去分析爵士和声是件很好玩的事，有兴趣可以去分析下John Coltrane的Giant Steps。下图是Coltrane自己画的五度图。
 
-![There&apos;s an error in this study. Can you spot it?](../../.gitbook/assets/coltrane-cof.jpg)
+![这幅图中其实有个Bug](../../.gitbook/assets/coltrane-cof.jpg)
 
