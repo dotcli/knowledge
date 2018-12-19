@@ -1,0 +1,19 @@
+# Fixing things
+
+## General
+
+### Look it up
+
+When something broke and you don't know how to fix it, first look it up on the web.
+Even when it doesn't give you enough guidance on fixing it, you would know more about how to bring it to a professional.
+
+## Windows 10
+
+### WLAN option disappeared from Network Settings
+> Note: The cause may be different for yours. I ran into this problem at Windows 10.0.17134, on an MSI GT62VR laptop.
+
+Change the power saving mode for your wireless adapter, then power cycle the computer. To do this:
+
+1. Go to Settings > System > Power & Sleep > Additional Power Settings > Change Plan settings > Change advanced power settings
+2. Under Wireless Adapter Settings > Power Saving Mode, change the setting. What setting you change to don't matter, so long as they are different from what you currently have.
+3. Restart the computer.

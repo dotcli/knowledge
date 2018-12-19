@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "gitbook serve . docs",
-    "build": "gitbook build . docs"
+    "build": "gitbook build . docs && echo wiki.changbai.li >> docs/CNAME"
   },
   "repository": {
     "type": "git",

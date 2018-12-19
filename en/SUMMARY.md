@@ -10,6 +10,7 @@
     * [Unity Study Guide](programming/unity3d.md)
 * [rollerblading](rollerblading.md)
 * [tools](tools.md)
+* [fixing](fixing/README.md)
 * [design](design/README.md)
     * [gestalts](design/gestalts.md)
 
