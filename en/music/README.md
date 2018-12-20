@@ -8,7 +8,7 @@
 
 When it comes to harmonic analysis, circle of fifth is one of the most important concept to remember.
 
-![Circle of Fifth Deluxe](../../.gitbook/assets/circle_of_fifths_deluxe_4.svg)
+![Circle of Fifth Deluxe](../../assets/circle_of_fifths_deluxe_4.svg)
 
 Try to remember the circular sequence both clockwise and counterclockwise.
 
@@ -21,5 +21,5 @@ When looking at the chord changes in a piece of music, think about their positio
 
 In jazz, harmonics are pushed to its limit, and it makes analysis extra fun. Vox has a [wonderful video](https://www.youtube.com/watch?v=62tIvfP9A2w) on John Coltrane's Giant Steps and Circle of Fifth. Speaking of which, here's Coltrane's study of the Circle.
 
-![There&apos;s an error in this study. Can you spot it?](../../.gitbook/assets/coltrane-cof.jpg)
+![There&apos;s an error in this study. Can you spot it?](../../assets/coltrane-cof.jpg)
 
