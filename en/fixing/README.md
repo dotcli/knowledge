@@ -7,6 +7,12 @@
 When something broke and you don't know how to fix it, first look it up on the web.
 Even when it doesn't give you enough guidance on fixing it, you would know more about how to bring it to a professional.
 
+### Search the user group
+
+For software products, search the FAQ & user group. Look for mailing lists, forums (e.g. reddit), other places where users discuss.
+
+If it's an open soure project on Github, check the issues. Leverage the filter.
+
 ## Windows 10
 
 ### WLAN option disappeared from Network Settings

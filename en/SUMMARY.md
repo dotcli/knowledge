@@ -8,6 +8,7 @@
     * [guitar](music/guitar.md)
 * [programming](programming/README.md)
     * [Unity Study Guide](programming/unity3d.md)
+    * [vvvv](programming/vvvv.md)
 * [rollerblading](rollerblading.md)
 * [tools](tools.md)
 * [fixing](fixing/README.md)
