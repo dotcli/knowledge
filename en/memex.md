@@ -1,12 +1,12 @@
 # memex
 
-> [visit](https://dotcli.github.io/memex/)
+> [visit](https://memex.changbai.li/)
 
 Memex is my public bookmarks, built with [Hamish MacDonald's wonderful tool](https://github.com/kormyen/memex).
 
 Bookmarks in the memex can be filtered by tags, and type of media.
 
-This wiki interacts with the memex; look for the [\#tag](https://dotcli.github.io/memex/#tag-philosophy) links to find bookmarks related to a topic.
+This wiki interacts with the memex; look for the [\#tag](https://memex.changbai.li/#tag-philosophy) links to find bookmarks related to a topic.
 
 ## Memex Visualized
 

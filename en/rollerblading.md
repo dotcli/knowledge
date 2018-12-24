@@ -1,6 +1,6 @@
 # rollerblading
 
-> [\#rollerblade](https://dotcli.github.io/memex/#tag-rollerblade)
+> [\#rollerblade](https://memex.changbai.li/#tag-rollerblade)
 
 ## Street skating \(or: 刷街\)
 

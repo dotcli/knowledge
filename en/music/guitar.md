@@ -1,6 +1,6 @@
 # guitar
 
-> [\#guitar](https://dotcli.github.io/memex/#tag-guitar)
+> [\#guitar](https://memex.changbai.li/#tag-guitar)
 
 ## Warm-up routine
 

@@ -1,6 +1,6 @@
 # programming
 
-> [\#code](https://dotcli.github.io/memex/#tag-code)
+> [\#code](https://memex.changbai.li/#tag-code)
 
 ## DRY principle
 

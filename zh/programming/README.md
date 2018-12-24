@@ -1,3 +1,3 @@
 # 编程
 
-> [\#code](https://dotcli.github.io/memex/#tag-code)
+> [\#code](https://memex.changbai.li/#tag-code)

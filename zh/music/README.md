@@ -1,6 +1,6 @@
 # 音乐
 
-> [\#music](https://dotcli.github.io/memex/#type-music)
+> [\#music](https://memex.changbai.li/#type-music)
 
 ### 乐理
 

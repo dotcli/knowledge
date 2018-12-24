@@ -1,6 +1,6 @@
 # design
 
-> [\#design](https://dotcli.github.io/memex/#tag-design)
+> [\#design](https://memex.changbai.li/#tag-design)
 
 ### Principles
 

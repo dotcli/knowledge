@@ -1,5 +1,5 @@
 # tools
-> [\#tool](https://dotcli.github.io/memex/#type-tool)
+> [\#tool](https://memex.changbai.li/#type-tool)
 
 ## Philosophy
 > "Our tools make us."
