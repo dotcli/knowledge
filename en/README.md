@@ -13,3 +13,10 @@ This wiki is built with [Gitbook](https://github.com/GitbookIO/gitbook), and hos
 > Note: There are two versions of Gitbook out there, the open source "legacy" Gitbook, and a close-sourced version 2. I'm using the older version since it's a more mature product - the newer one doesn't support multiple languages, for example.
 
 If you see something broken in this wiki, please let me know by submitting an issue [here](http://github.com/dotcli/knowledge/issues).
+
+## Other wikis
+
+* [Brendex](https://ltkmn.gitbook.io/brendex/)
+* [XXIIVV](https://wiki.xxiivv.com/)
+* [Nikita Voloboev](https://wiki.nikitavoloboev.xyz)
+* [Yoshua Wuyts](https://yoshuawuyts.gitbooks.io/knowledge/)
