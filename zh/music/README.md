@@ -1,6 +1,6 @@
 # 音乐
 
-> [\#music](https://memex.changbai.li/#type-music)
+> [\#type:music](https://memex.changbai.li/#type-music), [\#tag:music](https://memex.changbai.li/#tag-music)
 
 ### 乐理
 

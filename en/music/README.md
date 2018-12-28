@@ -1,6 +1,10 @@
 # music
 
-> [\#music](https://memex.changbai.li/#type-music)
+> [\#type:music](https://memex.changbai.li/#type-music), [\#tag:music](https://memex.changbai.li/#tag-music)
+
+### Composition
+
+**Motif**: The smallest possible music idea that can still be recognized as a unique idea. By sticking with motifs throughout the piece, the music stays coherent and with identity.
 
 ### Theory
 
