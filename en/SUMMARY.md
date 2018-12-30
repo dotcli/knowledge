@@ -9,6 +9,7 @@
 * [programming](programming/README.md)
     * [Unity Study Guide](programming/unity3d.md)
     * [vvvv](programming/vvvv.md)
+    * [machine learning](programming/machine-learning.md)
 * [rollerblading](rollerblading.md)
 * [tools](tools.md)
 * [fixing](fixing/README.md)
