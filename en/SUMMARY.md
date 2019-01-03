@@ -7,6 +7,7 @@
 * [music](music/README.md)
     * [guitar](music/guitar.md)
 * [programming](programming/README.md)
+    * [git](programming/git.md)
     * [Unity Study Guide](programming/unity3d.md)
     * [vvvv](programming/vvvv.md)
     * [machine learning](programming/machine-learning.md)
@@ -15,4 +16,4 @@
 * [fixing](fixing/README.md)
 * [design](design/README.md)
     * [gestalts](design/gestalts.md)
-
+* [health](health/README.md)
