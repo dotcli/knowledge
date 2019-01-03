@@ -1,5 +1,7 @@
 # Git
 
+> [\#git](https://memex.changbai.li/#tag-git)
+
 ## Commit message
 
 The __title__ of the commit message should be a one line short phrase, that summarizes the change. Follow "Verb-Object" form. Strip away tenses of the verb, or any decoration. The simpler the better.
