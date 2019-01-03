@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>fixing · GitBook</title>
+        <title>git · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../design/" />
+    <link rel="next" href="unity3d.html" />
     
     
-    <link rel="prev" href="../tools.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -179,9 +179,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../programming/">
+        <li class="chapter " data-level="1.5" data-path="./">
             
-                <a href="../programming/">
+                <a href="./">
             
                     
                     programming
@@ -193,9 +193,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../programming/git.html">
+        <li class="chapter active" data-level="1.5.1" data-path="git.html">
             
-                <a href="../programming/git.html">
+                <a href="git.html">
             
                     
                     git
@@ -206,9 +206,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../programming/unity3d.html">
+        <li class="chapter " data-level="1.5.2" data-path="unity3d.html">
             
-                <a href="../programming/unity3d.html">
+                <a href="unity3d.html">
             
                     
                     Unity Study Guide
@@ -219,9 +219,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../programming/vvvv.html">
+        <li class="chapter " data-level="1.5.3" data-path="vvvv.html">
             
-                <a href="../programming/vvvv.html">
+                <a href="vvvv.html">
             
                     
                     vvvv
@@ -232,9 +232,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../programming/machine-learning.html">
+        <li class="chapter " data-level="1.5.4" data-path="machine-learning.html">
             
-                <a href="../programming/machine-learning.html">
+                <a href="machine-learning.html">
             
                     
                     machine learning
@@ -276,9 +276,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.8" data-path="./">
+        <li class="chapter " data-level="1.8" data-path="../fixing/">
             
-                <a href="./">
+                <a href="../fixing/">
             
                     
                     fixing
@@ -364,7 +364,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >fixing</a>
+        <a href=".." >git</a>
     </h1>
 </div>
 
@@ -379,26 +379,26 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="fixing-things">Fixing things</h1>
-<h2 id="general">General</h2>
-<h3 id="look-it-up">Look it up</h3>
-<p>When something broke and you don&apos;t know how to fix it, first look it up on the web.
-Even when it doesn&apos;t give you enough guidance on fixing it, you would know more about how to bring it to a professional.</p>
-<h3 id="search-the-user-group">Search the user group</h3>
-<p>For software products, search the FAQ &amp; user group. Look for mailing lists, forums (e.g. reddit), other places where users discuss.</p>
-<p>If it&apos;s an open soure project on Github, check the issues. Leverage the filter.</p>
-<h2 id="windows-10">Windows 10</h2>
-<h3 id="wlan-option-disappeared-from-network-settings">WLAN option disappeared from Network Settings</h3>
-<blockquote>
-<p>Note: The cause may be different for yours. I ran into this problem at Windows 10.0.17134, on an MSI GT62VR laptop.</p>
-</blockquote>
-<p>Change the power saving mode for your wireless adapter, then power cycle the computer. To do this:</p>
-<ol>
-<li>Go to Settings &gt; System &gt; Power &amp; Sleep &gt; Additional Power Settings &gt; Change Plan settings &gt; Change advanced power settings</li>
-<li>Under Wireless Adapter Settings &gt; Power Saving Mode, change the setting. What setting you change to don&apos;t matter, so long as they are different from what you currently have.</li>
-<li>Restart the computer.</li>
-</ol>
+                                <h1 id="git">Git</h1>
+<h2 id="commit-message">Commit message</h2>
+<p>The <strong>title</strong> of the commit message should be a one line short phrase, that summarizes the change. Follow &quot;Verb-Object&quot; form. Strip away tenses of the verb, or any decoration. The simpler the better.</p>
+<p>If there&apos;s a issue tracker, the issue name can be referenced in the commit message.</p>
+<p>The <strong>body</strong> of the commit is where you expand the details. It&apos;s not always necessary.</p>
+<pre><code>Add git.md (#24)
 
+* add notes on commit message
+* add list of commands
+</code></pre><p>Write like Hemingway.</p>
+<h2 id="commands">Commands</h2>
+<p><code>git init</code>: Init a git repo.</p>
+<p><code>git add -A</code>: Add all files.</p>
+<p><code>git commit -m &lt;your commit title&gt;</code>: Make a commit, and enter a title.</p>
+<p><code>git commit -am &lt;your commit title&gt;</code>: Add all <em>changes</em> to files already tracked by git, make a commit, and enter a title.</p>
+<p><code>git status</code>: Check repo status: which branch it&apos;s on, changed files, untracked files.</p>
+<p><code>git diff</code>: Check line-by-line changes of tracked files. In this view, press <code>u</code> to scroll up, <code>d</code> to scroll down, and <code>ZZ</code> to exit.</p>
+<p><code>git stash</code>: Temporarily &quot;stash away&quot; your current, not-staged changes. The repo goes back to its last commit. This functionality is useful for, e.g. when you are in the middle of making local changes, and the upstream has new commits.</p>
+<p><code>git stash apply</code>: Restore the stashed away changes back to the repo.</p>
+<!-- TODO: branching, resolving a conflict, tagging? -->
                                 
                                 </section>
                             
@@ -425,12 +425,12 @@ Even when it doesn&apos;t give you enough guidance on fixing it, you would know 
 
             
                 
-                <a href="../tools.html" class="navigation navigation-prev " aria-label="Previous page: tools">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: programming">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../design/" class="navigation navigation-next " aria-label="Next page: design">
+                <a href="unity3d.html" class="navigation navigation-next " aria-label="Next page: Unity Study Guide">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -441,7 +441,7 @@ Even when it doesn&apos;t give you enough guidance on fixing it, you would know 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"fixing","level":"1.8","depth":1,"next":{"title":"design","level":"1.9","depth":1,"path":"design/README.md","ref":"design/README.md","articles":[{"title":"gestalts","level":"1.9.1","depth":2,"path":"design/gestalts.md","ref":"design/gestalts.md","articles":[]}]},"previous":{"title":"tools","level":"1.7","depth":1,"path":"tools.md","ref":"tools.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"fixing/README.md","mtime":"2018-12-22T08:11:42.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-03T04:12:12.117Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"git","level":"1.5.1","depth":2,"next":{"title":"Unity Study Guide","level":"1.5.2","depth":2,"path":"programming/unity3d.md","ref":"programming/unity3d.md","articles":[]},"previous":{"title":"programming","level":"1.5","depth":1,"path":"programming/README.md","ref":"programming/README.md","articles":[{"title":"git","level":"1.5.1","depth":2,"path":"programming/git.md","ref":"programming/git.md","articles":[]},{"title":"Unity Study Guide","level":"1.5.2","depth":2,"path":"programming/unity3d.md","ref":"programming/unity3d.md","articles":[]},{"title":"vvvv","level":"1.5.3","depth":2,"path":"programming/vvvv.md","ref":"programming/vvvv.md","articles":[]},{"title":"machine learning","level":"1.5.4","depth":2,"path":"programming/machine-learning.md","ref":"programming/machine-learning.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"programming/git.md","mtime":"2019-01-03T04:09:15.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-03T04:12:12.117Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
