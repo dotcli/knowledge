@@ -1,5 +1,7 @@
 # Machine Learning
 
+> [\#machine learning](https://memex.changbai.li/#tag-machine%20learning)
+
 ## Terms
 
 __Weak AI__: Artificial intelligences that focus on one narrow task. Most existing products that claim themselves to be "AI" are weak AIs. Both Siri and a calculator belongs to this category.
