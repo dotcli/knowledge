@@ -7,6 +7,7 @@
 * [music](music/README.md)
     * [guitar](music/guitar.md)
 * [programming](programming/README.md)
+    * [Shell Commands](programming/shell.md)
     * [git](programming/git.md)
     * [Unity Study Guide](programming/unity3d.md)
     * [vvvv](programming/vvvv.md)

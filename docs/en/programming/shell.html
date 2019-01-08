@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>gestalts · GitBook</title>
+        <title>Shell Commands · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../health/" />
+    <link rel="next" href="git.html" />
     
     
     <link rel="prev" href="./" />
@@ -179,9 +179,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../programming/">
+        <li class="chapter " data-level="1.5" data-path="./">
             
-                <a href="../programming/">
+                <a href="./">
             
                     
                     programming
@@ -193,9 +193,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../programming/shell.html">
+        <li class="chapter active" data-level="1.5.1" data-path="shell.html">
             
-                <a href="../programming/shell.html">
+                <a href="shell.html">
             
                     
                     Shell Commands
@@ -206,9 +206,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../programming/git.html">
+        <li class="chapter " data-level="1.5.2" data-path="git.html">
             
-                <a href="../programming/git.html">
+                <a href="git.html">
             
                     
                     git
@@ -219,9 +219,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../programming/unity3d.html">
+        <li class="chapter " data-level="1.5.3" data-path="unity3d.html">
             
-                <a href="../programming/unity3d.html">
+                <a href="unity3d.html">
             
                     
                     Unity Study Guide
@@ -232,9 +232,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../programming/vvvv.html">
+        <li class="chapter " data-level="1.5.4" data-path="vvvv.html">
             
-                <a href="../programming/vvvv.html">
+                <a href="vvvv.html">
             
                     
                     vvvv
@@ -245,9 +245,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.5" data-path="../programming/machine-learning.html">
+        <li class="chapter " data-level="1.5.5" data-path="machine-learning.html">
             
-                <a href="../programming/machine-learning.html">
+                <a href="machine-learning.html">
             
                     
                     machine learning
@@ -302,9 +302,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="./">
+        <li class="chapter " data-level="1.9" data-path="../design/">
             
-                <a href="./">
+                <a href="../design/">
             
                     
                     design
@@ -316,9 +316,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.9.1" data-path="gestalts.html">
+        <li class="chapter " data-level="1.9.1" data-path="../design/gestalts.html">
             
-                <a href="gestalts.html">
+                <a href="../design/gestalts.html">
             
                     
                     gestalts
@@ -390,7 +390,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >gestalts</a>
+        <a href=".." >Shell Commands</a>
     </h1>
 </div>
 
@@ -405,13 +405,21 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gestalts">gestalts</h1>
-<p><img src="../../assets/gestalt_similarity.svg" alt=""></p>
-<p><img src="../../assets/continuation_a.gif" alt=""></p>
-<p><img src="../../assets/closure_a.gif" alt=""></p>
-<p><img src="../../assets/proximity01.gif" alt=""></p>
-<p><img src="../../assets/fig_grnd01.gif" alt=""></p>
-<p><img src="../../assets/taj4.jpg" alt=""></p>
+                                <h1 id="shell-commands">Shell Commands</h1>
+<p>Copy files between local and remote: <code>scp ~/rebels.txt dvader@deathstar.com:~/revenge</code></p>
+<p>ssh: <code>ssh pi@192.168.3.8</code></p>
+<p>Copy files securely: <code>rsync -auvP &lt;origin&gt; &lt;destination&gt;</code></p>
+<p>zip: <code>zip &lt;name.zip&gt; &lt;file to be zipped&gt;</code>, <code>zip -r &lt;name.zip&gt; &lt;directory to be zipped&gt;</code></p>
+<p>unzip: <code>unzip &lt;.zip&gt; &lt;optional directory to unzip to&gt;</code></p>
+<p>list: <code>ls -l</code> shows detail. <code>ls -S</code> sorts by size. <code>ls &lt;directory&gt;</code> lets you peek side a directory</p>
+<p>check file / folder size: <code>du -sh &lt;directory_name&gt;</code></p>
+<p>Print Working Directory: <code>pws</code> tells you where you&apos;re at</p>
+<p>chown: </p>
+<p>chmod: </p>
+<p>To restart an apache server, so that configs could apply: <code>sudo service apache2 restart</code></p>
+<h2 id="other-common-tasks-to-add-to-wiki">Other common tasks to add to wiki:</h2>
+<p>how to reboot linux</p>
+<p>how to schedule tasks</p>
 
                                 
                                 </section>
@@ -439,12 +447,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: design">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: programming">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../health/" class="navigation navigation-next " aria-label="Next page: health">
+                <a href="git.html" class="navigation navigation-next " aria-label="Next page: git">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -455,7 +463,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"gestalts","level":"1.9.1","depth":2,"next":{"title":"health","level":"1.10","depth":1,"path":"health/README.md","ref":"health/README.md","articles":[]},"previous":{"title":"design","level":"1.9","depth":1,"path":"design/README.md","ref":"design/README.md","articles":[{"title":"gestalts","level":"1.9.1","depth":2,"path":"design/gestalts.md","ref":"design/gestalts.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"design/gestalts.md","mtime":"2018-12-20T03:50:16.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-08T09:46:58.899Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Shell Commands","level":"1.5.1","depth":2,"next":{"title":"git","level":"1.5.2","depth":2,"path":"programming/git.md","ref":"programming/git.md","articles":[]},"previous":{"title":"programming","level":"1.5","depth":1,"path":"programming/README.md","ref":"programming/README.md","articles":[{"title":"Shell Commands","level":"1.5.1","depth":2,"path":"programming/shell.md","ref":"programming/shell.md","articles":[]},{"title":"git","level":"1.5.2","depth":2,"path":"programming/git.md","ref":"programming/git.md","articles":[]},{"title":"Unity Study Guide","level":"1.5.3","depth":2,"path":"programming/unity3d.md","ref":"programming/unity3d.md","articles":[]},{"title":"vvvv","level":"1.5.4","depth":2,"path":"programming/vvvv.md","ref":"programming/vvvv.md","articles":[]},{"title":"machine learning","level":"1.5.5","depth":2,"path":"programming/machine-learning.md","ref":"programming/machine-learning.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"programming/shell.md","mtime":"2019-01-08T09:36:11.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-08T09:46:58.899Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
