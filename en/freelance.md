@@ -2,6 +2,10 @@
 
 > [\#freelance](https://memex.changbai.li/#tag-freelance), [\#business](https://memex.changbai.li/#tag-business)
 
+## Taking Opportunities
+
+When presented with any opportunities, make sure to give at least 12 hours before making the decision to take it.
+
 ## Setting your price
 
 A common problem for new freelancers is to undercharge their service. If you find yourself in such situation, don't be afraid to raise it radically.
