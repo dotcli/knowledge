@@ -16,11 +16,21 @@ check file / folder size: `du -sh <directory_name> `
 
 Print Working Directory: `pws` tells you where you're at
 
+Shutdown: `sudo shutdown -h now`
+
+Restart: `sudo shutdown -r now`
+
 chown: 
 
 chmod: 
 
+## Server Admin
+
 To restart an apache server, so that configs could apply: `sudo service apache2 restart`
+
+To apply config for NGINX: `service nginx reload`
+
+or on Windows: `nginx -s reload`
 
 ## Other common tasks to add to wiki:
 
