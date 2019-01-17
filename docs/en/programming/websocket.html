@@ -433,6 +433,40 @@
 <ul>
 <li>Does very little - much harder to use once it&apos;s more than single server-client. Have to combine with more tech at that point - which gets complicated.</li>
 </ul>
+<h3 id="nginx-websocket-reverse-proxy">NGINX WebSocket Reverse Proxy</h3>
+<p>NGINX can be used to handle SSL, and turns WS into WSS. Example config:</p>
+<pre><code class="lang-bash">http {
+    include       mime.types;
+    default_<span class="hljs-built_in">type</span>  application/octet-stream;
+    map <span class="hljs-variable">$http_upgrade</span> <span class="hljs-variable">$connection_upgrade</span> {
+        default upgrade;
+        <span class="hljs-string">&apos;&apos;</span> close;
+    }
+    upstream websocket {
+        <span class="hljs-comment"># You need to run a WS server, and set it as an upstream like this</span>
+        server localhost:5000;
+    }
+    server {
+        listen 443 ssl;
+        server_name example.com;
+
+        ssl_certificate      ssl_certs/fullchain.pem;
+        ssl_certificate_key  ssl_certs/privkey.pem;
+
+        location /websocket {
+            <span class="hljs-comment"># Pass connections to https://example.com/websocket to the internal WS server</span>
+            proxy_pass http://websocket;
+            proxy_http_version 1.1;
+            proxy_<span class="hljs-built_in">set</span>_header Upgrade <span class="hljs-variable">$http_upgrade</span>;
+            proxy_<span class="hljs-built_in">set</span>_header Connection <span class="hljs-variable">$connection_upgrade</span>;
+            <span class="hljs-comment"># If no data gets exchanged, socket would timeout. default timeout is 60s.</span>
+            proxy_connect_timeout 1d;
+            proxy_send_timeout 1d;
+            proxy_<span class="hljs-built_in">read</span>_timeout 1d;
+        }
+    }
+}
+</code></pre>
 
                                 
                                 </section>
@@ -476,7 +510,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"websocket","level":"1.5.6","depth":2,"next":{"title":"freelance","level":"1.6","depth":1,"path":"freelance.md","ref":"freelance.md","articles":[]},"previous":{"title":"vvvv","level":"1.5.5","depth":2,"path":"programming/vvvv.md","ref":"programming/vvvv.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"programming/websocket.md","mtime":"2019-01-15T08:23:02.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-15T16:02:50.801Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"websocket","level":"1.5.6","depth":2,"next":{"title":"freelance","level":"1.6","depth":1,"path":"freelance.md","ref":"freelance.md","articles":[]},"previous":{"title":"vvvv","level":"1.5.5","depth":2,"path":"programming/vvvv.md","ref":"programming/vvvv.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"programming/websocket.md","mtime":"2019-01-17T07:34:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-17T07:36:38.366Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
