@@ -26,6 +26,8 @@ Example:
 
 When writing a Kinect installation that attaches strands to the kinect skeleton, I would think about what the strand needs to know every frame in order to update their locations. In that case it is what two joints they are between, and how far they are between the joints.
 
+> Finding the right metaphors is key to understanding and thinking about software architecture. Don't be afraid of getting silly with this - use whatever that works for your mind.
+
 ## Commenting etiquette
 
 The first thing to consider when commenting is if a comment is justified. Does the function's / variable's names already explain what it does? What value does the comment add for the future reader? Often, a comment is needed when the code involves complex math that isn't obvious at first glance.

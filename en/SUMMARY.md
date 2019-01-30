@@ -20,3 +20,4 @@
     * [gestalts](design/gestalts.md)
 * [health](health/README.md)
 * [rollerblading](rollerblading.md)
+* [misc](misc.md)
