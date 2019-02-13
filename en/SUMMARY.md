@@ -18,6 +18,7 @@
 * [fixing](fixing/README.md)
 * [design](design/README.md)
     * [gestalts](design/gestalts.md)
+* [teaching](teaching.md)
 * [health](health/README.md)
 * [rollerblading](rollerblading.md)
 * [misc](misc.md)

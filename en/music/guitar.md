@@ -2,6 +2,12 @@
 
 > [\#guitar](https://memex.changbai.li/#tag-guitar)
 
+## Buying your first guitar
+
+If you are just starting out, and want to get a cheaper guitar, then graduate to a nicer one later, set your budget around $200.
+
+For a beginner, you want the guitar to be easy to play - the fretboard width, string height, and weight, should all be comfortable for you. Go to a guitar store and try your hands on them - there's a ton of shitty guitars at this price point, and they will hinder your playing and learning.
+
 ## Warm-up routine
 
 The goal of this routine is to stretch muscles, familiarize with the string, and exercise rhythmic sense.
