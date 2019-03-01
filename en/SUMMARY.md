@@ -20,5 +20,6 @@
     * [gestalts](design/gestalts.md)
 * [teaching](teaching.md)
 * [health](health/README.md)
+    * [First Aid](health/first-aid.md)
 * [rollerblading](rollerblading.md)
 * [misc](misc.md)
