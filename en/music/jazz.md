@@ -1,6 +1,6 @@
 # jazz
 
-> [\Ya like jazz?](https://memex.changbai.li/#tag-jazz)
+> [Ya like jazz?](https://memex.changbai.li/#tag-jazz)
 
 ## Warm-up routine
 
