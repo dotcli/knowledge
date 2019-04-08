@@ -5,6 +5,7 @@
 * [hardware](hardware/README.md)
     * [Projectors](hardware/projector.md)
 * [music](music/README.md)
+    * [jazz](music/jazz.md)
     * [guitar](music/guitar.md)
 * [programming](programming/README.md)
     * [git](programming/git.md)
