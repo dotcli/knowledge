@@ -7,6 +7,7 @@
 * [music](music/README.md)
     * [jazz](music/jazz.md)
     * [guitar](music/guitar.md)
+    * [vocal](music/vocal.md)
 * [programming](programming/README.md)
     * [git](programming/git.md)
     * [machine learning](programming/machine-learning.md)
