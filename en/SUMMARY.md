@@ -23,5 +23,7 @@
 * [teaching](teaching.md)
 * [health](health/README.md)
     * [First Aid](health/first-aid.md)
+* food
+    * [cooking](food/cooking.md)
 * [rollerblading](rollerblading.md)
 * [misc](misc.md)
