@@ -24,3 +24,10 @@
 Cast-iron pans are very heavy. Make sure the one you choose is comfortable to use for you.
 
 If you are using an electric stove with e.g. glass-top, make sure the bottom of the pan is clean before cooking, remove it off from the stove immediately after cooking, and do not slide the pan on the stove to avoid scratching.
+
+
+## French Toast
+
+- Use stale or dried bread. Drier bread soaks up the custard better. Challah bread is allegedly amazing too.
+- Refresh the cooking oil / butter for every piece of toast. The overcooked bits would burn in the oil and make latter toasts taste bitter.
+- The toast will create a lot of bubbles in the oil. When the bubble dies down, it means that side is cooked and it's time to flip.
