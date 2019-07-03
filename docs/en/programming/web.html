@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>hardware · GitBook</title>
+        <title>web · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="projector.html" />
+    <link rel="next" href="../freelance.html" />
     
     
-    <link rel="prev" href="../memex.html" />
+    <link rel="prev" href="websocket.html" />
     
 
     </head>
@@ -115,9 +115,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="./">
+        <li class="chapter " data-level="1.3" data-path="../hardware/">
             
-                <a href="./">
+                <a href="../hardware/">
             
                     
                     hardware
@@ -129,9 +129,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="projector.html">
+        <li class="chapter " data-level="1.3.1" data-path="../hardware/projector.html">
             
-                <a href="projector.html">
+                <a href="../hardware/projector.html">
             
                     
                     Projectors
@@ -205,9 +205,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../programming/">
+        <li class="chapter " data-level="1.5" data-path="./">
             
-                <a href="../programming/">
+                <a href="./">
             
                     
                     programming
@@ -219,9 +219,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../programming/git.html">
+        <li class="chapter " data-level="1.5.1" data-path="git.html">
             
-                <a href="../programming/git.html">
+                <a href="git.html">
             
                     
                     git
@@ -232,9 +232,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../programming/machine-learning.html">
+        <li class="chapter " data-level="1.5.2" data-path="machine-learning.html">
             
-                <a href="../programming/machine-learning.html">
+                <a href="machine-learning.html">
             
                     
                     machine learning
@@ -245,9 +245,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../programming/shell.html">
+        <li class="chapter " data-level="1.5.3" data-path="shell.html">
             
-                <a href="../programming/shell.html">
+                <a href="shell.html">
             
                     
                     Shell Commands
@@ -258,9 +258,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../programming/unity3d.html">
+        <li class="chapter " data-level="1.5.4" data-path="unity3d.html">
             
-                <a href="../programming/unity3d.html">
+                <a href="unity3d.html">
             
                     
                     Unity Study Guide
@@ -271,9 +271,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.5" data-path="../programming/vvvv.html">
+        <li class="chapter " data-level="1.5.5" data-path="vvvv.html">
             
-                <a href="../programming/vvvv.html">
+                <a href="vvvv.html">
             
                     
                     vvvv
@@ -284,9 +284,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.6" data-path="../programming/websocket.html">
+        <li class="chapter " data-level="1.5.6" data-path="websocket.html">
             
-                <a href="../programming/websocket.html">
+                <a href="websocket.html">
             
                     
                     websocket
@@ -297,9 +297,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.7" data-path="../programming/web.html">
+        <li class="chapter active" data-level="1.5.7" data-path="web.html">
             
-                <a href="../programming/web.html">
+                <a href="web.html">
             
                     
                     web
@@ -519,7 +519,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >hardware</a>
+        <a href=".." >web</a>
     </h1>
 </div>
 
@@ -534,16 +534,24 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="hardware">hardware</h1>
+                                <h1 id="web">web</h1>
 <blockquote>
-<p><a href="https://memex.changbai.li/#tag-hardware" target="_blank">#hardware</a></p>
+<p><a href="https://memex.changbai.li/#tag-web" target="_blank">#web</a></p>
 </blockquote>
-<h2 id="battery">Battery</h2>
-<h3 id="how-to-tell-if-a-battery-is-out-of-juice">How to tell if a battery is out of juice?</h3>
-<p>Drop each battery (with the flat, negative end down) from a couple of inches up. If the battery is charged, it should make a solid thud and most likely stay standing. If, however, the battery is dead, it will bounce and fall over immediately.</p>
-<blockquote>
-<p>This method only works for alkaline batteries. The reason is that as alkaline batteries discharge, they produce hydrogen gas, inflating the battery.</p>
-</blockquote>
+<h2 id="launch-chrome-with-flags-for-local-development">Launch Chrome with flags for local development</h2>
+<p>Having a shortcut for launching chrome that ignores some security restrictions, is quite useful for development.</p>
+<h3 id="example-launch-chrome-without-cors">Example: Launch Chrome without CORS</h3>
+<p><strong>Windows</strong></p>
+<ol>
+<li>Create a new shortcut</li>
+<li>In the properties of that shortcut, add after <code>chrome.exe&quot;</code>: <code>--disable-web-security --disable-gpu --user-data-dir=~/chromeTemp</code></li>
+</ol>
+<p><strong>OSX</strong></p>
+<p><code>open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir=&quot;/tmp/chrome_dev_test&quot; --disable-web-security</code></p>
+<p><strong>linux</strong></p>
+<p><code>google-chrome --disable-web-security</code></p>
+<h3 id="launch-chrome-and-allow-scripts-to-access-local-files">Launch Chrome and allow scripts to access local files</h3>
+<p><code>-&#x2013;allow-file-access-from-files</code></p>
 
                                 
                                 </section>
@@ -571,12 +579,12 @@
 
             
                 
-                <a href="../memex.html" class="navigation navigation-prev " aria-label="Previous page: memex">
+                <a href="websocket.html" class="navigation navigation-prev " aria-label="Previous page: websocket">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="projector.html" class="navigation navigation-next " aria-label="Next page: Projectors">
+                <a href="../freelance.html" class="navigation navigation-next " aria-label="Next page: freelance">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -587,7 +595,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"hardware","level":"1.3","depth":1,"next":{"title":"Projectors","level":"1.3.1","depth":2,"path":"hardware/projector.md","ref":"hardware/projector.md","articles":[]},"previous":{"title":"memex","level":"1.2","depth":1,"path":"memex.md","ref":"memex.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"hardware/README.md","mtime":"2019-04-18T04:23:29.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-03T21:40:15.828Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"web","level":"1.5.7","depth":2,"next":{"title":"freelance","level":"1.6","depth":1,"path":"freelance.md","ref":"freelance.md","articles":[]},"previous":{"title":"websocket","level":"1.5.6","depth":2,"path":"programming/websocket.md","ref":"programming/websocket.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"programming/web.md","mtime":"2019-07-03T21:39:14.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-03T21:40:15.828Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>

@@ -15,6 +15,7 @@
     * [Unity Study Guide](programming/unity3d.md)
     * [vvvv](programming/vvvv.md)
     * [websocket](programming/websocket.md)
+    * [web](programming/web.md)
 * [freelance](freelance.md)
 * [tools](tools.md)
 * [fixing](fixing/README.md)
