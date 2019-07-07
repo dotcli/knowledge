@@ -27,5 +27,6 @@
     * [First Aid](health/first-aid.md)
 * food
     * [cooking](food/cooking.md)
+    * [drinks](food/drinks.md)
 * [rollerblading](rollerblading.md)
 * [misc](misc.md)

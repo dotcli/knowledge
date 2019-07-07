@@ -8,6 +8,16 @@ If you are just starting out, and want to get a cheaper guitar, then graduate to
 
 For a beginner, you want the guitar to be easy to play - the fretboard width, string height, and weight, should all be comfortable for you. Go to a guitar store and try your hands on them - there's a ton of shitty guitars at this price point, and they will hinder your playing and learning.
 
+## Buying a nicer guitar
+
+0. Ignore the brand. Focus on how it feels and how it feels only.
+1. Intonation. Test how well the guitar stays in tone on different frets, low and high. Test how the notes harmonize.
+  - Don't use any effects, just plug straight into the amp.
+2. Ergonomics. How does the neck feel when you play it in your style? How does it sit on your lap?
+	- Play in your style, with whatever effects or amp setups you want to use.
+3. Now look at the guitar. See what it actually is.
+	- Examine the type of wood, the colors, the pickup, if there are any faulty parts.
+
 ## Warm-up routine
 
 The goal of this routine is to stretch muscles, familiarize with the string, and exercise rhythmic sense.

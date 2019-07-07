@@ -9,3 +9,5 @@
 * [硬件](hardware/README.md)
 * [健康](health/README.md)
     * [急救](health/first-aid.md)
+* 饮食
+    * [烹饪](food/cooking.md)
