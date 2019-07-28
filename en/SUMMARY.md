@@ -9,6 +9,9 @@
     * [guitar](music/guitar.md)
     * [vocal](music/vocal.md)
     * [rhythm](music/rhythm.md)
+    * [licks](music/licks.md)
+    * sheet music
+        * [chon - suda](music/sheets/chon-suda.md)
 * [programming](programming/README.md)
     * [git](programming/git.md)
     * [machine learning](programming/machine-learning.md)
