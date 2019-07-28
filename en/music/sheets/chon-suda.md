@@ -124,7 +124,7 @@ Esus2(#11)  Gdim G#m  | F#m6/A  G#m7|
 ```
 ### 17-24 B' section
 ```
-二9sus4  |  三m7  |  六m7  |  六m7 Amaj7  |
+二9sus4  |  三m7  |  六m7  |  六m7 降七maj7  |
 二9sus4  |  三m7  |  六m7  |  六m7 五13  |
 ```
 ### 25-26 transition
@@ -140,12 +140,12 @@ Esus2(#11)  Gdim G#m  | F#m6/A  G#m7|
 ```
 ### 35-42 B section
 ```
-二m9 二9sus4  |  三m7  |  六m7 六m9  | 六m7 Amaj7  |
+二m9 二9sus4  |  三m7  |  六m7 六m9  | 六m7 降七maj7  |
 二m9 二9sus4  |  三m7  |  六m7 六m9  |  六m7 五13    |
 ```
 ### 43-50 B' section
 ```
-二9sus4  |  三m7  |  六m7  |  六m7 Amaj7  |
+二9sus4  |  三m7  |  六m7  |  六m7 降七maj7  |
 二9sus4  |  三m7  |  六m7  |  六m7 五13  |
 ```
 ### 51-52 transition
