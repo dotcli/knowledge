@@ -2,28 +2,41 @@
 
 > [\#cooking](https://memex.changbai.li/#tag-cooking)
 
-## Cast-Iron Pan
+## Cookware
 
-### Seasoning
+### Cast-Iron Pan
 
-0. If it's a 2nd-handed pan, pour __1/2 cup of salt__ into the pan, and scour the surface with paper towel to clean. Then clean with water and dry it off.
-1. Set oven to __self-cleaning mode__, put the pan in for __3 hours__.
-2. Take pan out to cool, and set oven to __232°C__.
-3. Fully cover the surface of the pan in an oil high in __unsaturated fat__(usually oils from vegetable, canola, nuts, & seeds). Put the pan back in oven for __30 minutes__.
-    - Afterwards, it should look a bit darker than before.
-4. Repeat the oil coating -> oven -> cooling process __3 _more_ times__. Afterwards, the pan should look much more deeper black, and much more stick-free. This is due to the layer of polymerized fat and oil from seasoning.
+#### Seasoning
 
-### Maintenance
+0. Clean the dirt & grease. You can use dish soap for the grease. If it's a 2nd-hand pan with uneven seasoning, clean it off by pouring __1/2 cup of salt__ into the pan, and scouring the surface with paper towel to clean. Then clean with water and dry it off.
+1. Season the pan by heating oil on the surface to produce a polymer layer. Fully cover the surface of the pan in an oil high in __unsaturated fat__(usually oils from vegetable, canola, nuts, & seeds). Heat the pan till smoking. Wash (do NOT use soap now), heat up to dry off the water, and repeat the coating & heating several times, until the pan looks and feels greasy without adding oil.
+2. Now it is seasoned! To tell how well the seasoning was, try frying an egg without oil and see how much it sticks.
 
-- It's okay to use soap, and metal utensils on a cast-iron pan, so long as it's seasoned correctly.
-- Dry the pan immediately after cleaning. Rust is a big enemy of cast-iron pan. Heat the pan up in oven if you want to dry faster.
-- Coat the pan in oil after drying.
+#### Usage
 
-### Other things to watch out
+You can be more rough when cooking with this utensil: metal utensils are ok to use. If properly seasoned this would be super non-sticky.
+
+#### Maintenance
+
+- Let the pan cool off before washing; Wash it like you would any other utensils.
+- Dry the pan immediately after cleaning. Rust is a big enemy of cast-iron pan. Heat the pan up if you want to dry faster.
+- Coat the pan in oil after drying. After doing this a few times, the polymer layer will be thick enough that you can skip this step.
+
+#### Other things to watch out
 
 Cast-iron pans are very heavy. Make sure the one you choose is comfortable to use for you.
 
 If you are using an electric stove with e.g. glass-top, make sure the bottom of the pan is clean before cooking, remove it off from the stove immediately after cooking, and do not slide the pan on the stove to avoid scratching.
+
+### Chinese Carbon Steel Wok
+
+The material is quite similar to cast iron, just a lot thinner and lighter. Its light weight, and curved surface makes it perfect for stir frying. It can be seasoned and maintained similar to the cast iron pan.
+
+### Non-sticky pan
+
+Do not use metal utensils on a non-sticky pan, this would destroy the coating.
+
+Always add the oil when pan is _cold_, as heating the pan too hot would destroy the coating.
 
 ## Ingredients
 
