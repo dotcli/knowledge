@@ -9,6 +9,7 @@
     * [guitar](music/guitar.md)
     * [vocal](music/vocal.md)
     * [rhythm](music/rhythm.md)
+    * [harmony](music/harmony.md)
     * [licks](music/licks.md)
     * sheet music
         * [chon - suda](music/sheets/chon-suda.md)
@@ -31,5 +32,6 @@
 * food
     * [cooking](food/cooking.md)
     * [drinks](food/drinks.md)
+    * [nutrition](food/nutrition.md)
 * [rollerblading](rollerblading.md)
 * [misc](misc.md)
