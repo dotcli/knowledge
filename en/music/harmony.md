@@ -1,6 +1,6 @@
 # Chords & Harmonies
 
-> [\#chord](https://memex.changbai.li/#tag-chord), [\#chord](https://memex.changbai.li/#tag-chord)
+> [\#chord](https://memex.changbai.li/#tag-chord), [\#music theory](https://memex.changbai.li/#tag-music%20theory), [\#progression](https://memex.changbai.li/#tag-progression)
 
 Here are some usages of chords I find interesting & inspiring.
 

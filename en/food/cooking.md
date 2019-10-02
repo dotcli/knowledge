@@ -48,6 +48,9 @@ Peanut oil is fantastic at high heat cooking.
 
 # Recipes
 
+> [\#recipes](https://memex.changbai.li/#tag-recipes)
+
+
 ## French Toast
 
 - Use stale or dried bread. Drier bread soaks up the custard better. 
