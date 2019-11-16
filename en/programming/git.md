@@ -37,4 +37,20 @@ Write like Hemingway.
 
 `git stash apply`: Restore the stashed away changes back to the repo.
 
+`git checkout <branch name>`: Move to a branch.
+
+`git checkout -b <branch name>`: Create a new branch called `<branch name>`, and move the that branch.
+
+
+
 <!-- TODO: branching, resolving a conflict, tagging? -->
+
+## Common tasks
+
+### Repo is too big, I only want the latest changes.
+
+Chances are the repo has a long history and it's making the clone slow. Create a shallow clone that doesn't track many histories. Use `depth` flag to specify how far back you want to go.
+
+```
+git clone --depth=1 <remote_repo_url>
+```
