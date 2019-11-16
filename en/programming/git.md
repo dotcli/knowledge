@@ -29,6 +29,10 @@ Write like Hemingway.
 
 `git commit -am <your commit title>`: Add all _changes_ to files already tracked by git, make a commit, and enter a title.
 
+`git clone <repo url>`: Clone a git repo onto this computer.
+
+`git clone --depth=0 <repo url>`: Shallow-clone a repo. This means skipping the commit history of this repo. Useful when repo's had a long history of refactoring, growing too big, and you only care about the latest version.
+
 `git status`: Check repo status: which branch it's on, changed files, untracked files.
 
 `git diff`: Check line-by-line changes of tracked files. In this view, press `u` to scroll up, `d` to scroll down, and `ZZ` to exit.
