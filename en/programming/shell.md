@@ -32,6 +32,18 @@ To apply config for NGINX: `service nginx reload`
 
 or on Windows: `nginx -s reload`
 
+## Tricks
+
+### Alert you when a long task is finished
+
+You can make commands execute one after another with `&&`. For example, `cd project && git status` would change directory to the `project` folder, then display git repo status. A cool way to use this is to alert you when a long-running process has finished, by chaining something like `printf \\a` (print a "bell" character, which makes the computer beep), or `say "Process finished."` (this only works on mac).
+
+There's also `||` which only executes a command if the previous one fails. For example, `git clone <some huge repo> || say "Download failed"` would alert you if the repo couldn't be downloaded.
+
+Combining these two, you can even make it alert you for either success or failure.
+
+`git clone <repo url> && say "Download successful" || say "Download failed"`
+
 ## Other common tasks to add to wiki:
 
 how to reboot linux
