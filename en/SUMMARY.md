@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* game
+    * [Game Design](game/game-design.md)
 * [memex](memex.md)
 * [hardware](hardware/README.md)
     * [Projectors](hardware/projector.md)
