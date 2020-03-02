@@ -33,7 +33,7 @@
     * [First Aid](health/first-aid.md)
 * food
     * [cooking](food/cooking.md)
-    * [recipes](food/cooking.md#recipes)
+    * [recipes](food/recipes.md)
     * [drinks](food/drinks.md)
     * [nutrition](food/nutrition.md)
 * [rollerblading](rollerblading.md)

@@ -46,26 +46,63 @@ Always heat butter up gently. Butter is a mixture of things - fat, water, protei
 
 Peanut oil is fantastic at high heat cooking.
 
-# Recipes
+### Spices
 
-> [\#recipes](https://memex.changbai.li/#tag-recipes)
+You can impart a geological identity on dishes easily with the right combination of spices.
 
+#### Central Asia
 
-## French Toast
+Cumin, fennel seed, onion, cilantro.
 
-- Use stale or dried bread. Drier bread soaks up the custard better. 
-Baguettes are great because you can cut it into thick small pieces, and really soak up the custard; and the crust adds another layer of texture.
-Challah bread is allegedly amazing too.
-- Refresh the cooking oil / butter for every round of toasts. The overcooked bits would burn in the oil and make latter toasts taste bitter.
-- The toast will create a lot of bubbles in the oil. When the bubble dies down, it means that side is cooked and it's time to flip.
+These spices are often paired with mutton.
 
-## Shaanxi Chili oil noodle
+#### General China
 
-1. Cook __wide noodle__ in salted water. The noodle should be on the softer side.
-2. Take the noodle out into a bowl. Add some __black vinegar__, then put a layer of __crushed red pepper, salt, and minced garlic__.
-3. Heat a little bit cooking oil till it smokes. __Peanut oil__ is preferred.
-4. Quickly pour the oil evenly on the layer of spices. Stir well and serve.
+Scallion, garlic, ginger, chili pepper, ground white pepper, sesame (oil), MSG.
 
-That's the gist of it. You can also add vegetables on step 2: bean sprouts, leafy greens; add scallion or peanut crumbles; or use soy sauce for the salt. __Sichuan pepper__ is amazing here too, though obviously not for everybody.
+These spices are used across the majority of chinese cooking. These, soy sauce & rice vinegar, and a hot wok, are all you need for day-to-day chinese cooking.
 
-So long as there's enough spices in the layer, the oil temperature is high, and the vinegar is unsweetened black vinegar, this dish would be good. The best vinegar for this dish is called 老陈醋 (Mature Vinegar).
+#### Northern China
+
+Leek, cumin, garlic, fennel.
+
+Northern Chinese food cooks with a hot stove, preserved vegetables / meats, and abundant amount of soy sauce.
+
+#### Sichuan (Szechuan) cuisine
+
+Sichuan peppercorn, chili pepper, scallion, garlic, ginger, broad bean chili paste (豆瓣酱), black cardamom, cassia bark, star anise, coriander seed, bay leaf, galangal
+
+Influenced by a myriad of cuisines, sichuanese food is the spiciest in China. The numbing spiciness of Sichuan peppercorn is the most distinct feature of food there. You would also notice this cuisine sharing some spices with indian food. 
+
+#### Hunan cuisine
+
+Chili pepper, pickled chili pepper, dried chili pepper, smoked chili pepper (白辣椒, "white chili pepper"), fermented black bean (豆豉), garlic sprouts(蒜苗), Perilla(紫苏)
+
+Hunan food uses ample amount of oil, and high heat, both above and under the wok. The result is greasy, browned yet juicy, very spicy, and very aromatic stir fry dishes.
+
+#### India
+
+Onion, Garam Masala, turmeric, ginger-garlic paste, coriander seed, cumin, fennel seed, fenugreek, cardamom nutmeg, mint, cilantro, bay leaf, asafoetida...
+
+India is huge and diverse, but the common thread for cooking is their heavy use of spices. In the north, cumin and other central asian spices are emphasized. In the south, coconut milk and oil is used for a more tropical flavor. For cooking oil, use ghee (clarified butter).
+
+The spices are often added in multiple passes during the cooking. First some whole spices are toasted in oil before adding ingredients; then during the cooking, ground spices are added. Finally, before serving, turn off the heat and add fresh herbs.
+
+The onions are browned early in the cooking process, to different degrees depending on what we are looking for.
+
+There are lots of nuances for what spices to use, when to add them, and how long to cook them for. Indian food is all about spice cooking!
+
+##### Bhuno / bhoon
+
+To bhoon is to "cook completely" or "cook through". This is usually for spices: you want to cook through them so that their flavors are all out and integrated.
+
+To do this, cook the masala or whatever new spice on medium to high heat, stirring constantly with limited amount of water. Usually bhooning is complete when the oil separates from the sauce.
+
+#### South East Asia
+
+Lemongrass, basil, lime, fish sauce, galangal, mint, chili pepper, tamarind
+
+South East Asia also grows a huge variety of spices, like india; Unlike india, the climate is more consistently tropical, so the spices are often used fresh, instead of dried and grounded.
+
+Fish sauce is a staple flavor. So is the emphasis on sourness, using tamarind and lime / lemon.
+
