@@ -31,7 +31,7 @@ Write like Hemingway.
 
 `git clone <repo url>`: Clone a git repo onto this computer.
 
-`git clone --depth=0 <repo url>`: Shallow-clone a repo. This means skipping the commit history of this repo. Useful when repo's had a long history of refactoring, growing too big, and you only care about the latest version.
+`git clone --depth=1 <repo url>`: Shallow-clone a repo. This means skipping the commit history of this repo. Useful when repo's had a long history of refactoring, growing too big, and you only care about the latest version.
 
 `git status`: Check repo status: which branch it's on, changed files, untracked files.
 
