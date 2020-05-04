@@ -2,6 +2,18 @@
 
 > [\#game design](https://memex.changbai.li/#tag-game%20design)
 
+## Choices maketh game
+
+Games are about choices - giving the player options that are meaningful for them. By making these choices and overcoming challenges, players gain a feeling of agency. These choices are called **game mechanics**.
+
+So for a first step, your game can't be a rollercoaster ride. The player needs to be able to fall off the rollercoaster, or win a bonus giftbag if they ride it very well.
+
+Often new game designers would make game mechanics that feel boring or pointless. This is because the choice isn't impactful or meaningful. Picking the color of your shield is a choice, but if that doesn't impact the gameplay, then it doesn't make much difference to the player. You can spot these kind of mistakes in many commercial games - such as the ending to Mass Effect 3, where (without spoiling anything) the only substantial difference your choice makes is the color of the lazer.
+
+There are many ways to make choices meaningful. One method is to make sure there isn't a universally right choice: make the player pick between a shield that provides more defense but makes you move slower, or a shield that doesn't impede your movement, but will fail to block strong attacks. Which one is better? That depends on the player's playstyle, and by choosing one according to their style, this choice gives the player a sense of agency. Another important technique is to present enough information to the player to make the choice. Continuing with the shield example, if the player hasn't battled with any monsters, then they wouldn't know which playstyle fits them better, thus rendering the choice of the shield meaningless - not because they won't affect the gameplay differently later, but because it doesn't make a difference to the player at the time of choosing.
+
+> Items and upgrades are common, very intuitive examples of choice as game mechanics. There are more subtle ones, such as shortcuts in a map, light attack v.s. heavy attack, or which direction to move, jump, or attack in a platformer. Analyse the moment-to-moment gameplay of a game, and see where the player is made to evaluate the situation and make a choice.
+
 ## How to choose your game mechanics?
 
 There are many angles to consider when choosing game mechanics. 

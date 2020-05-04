@@ -1,8 +1,6 @@
 # Shell Commands
 
-Copy files between local and remote: `scp ~/rebels.txt dvader@deathstar.com:~/revenge`
-
-ssh: `ssh pi@192.168.3.8`
+## Operating system
 
 Copy files securely: `rsync -auvP <origin> <destination>`
 
@@ -26,13 +24,23 @@ chmod:
 
 ## Server Admin
 
+Copy files between local and remote: `scp ~/rebels.txt dvader@deathstar.com:~/revenge`
+
+ssh: `ssh pi@192.168.3.8`
+
 To restart an apache server, so that configs could apply: `sudo service apache2 restart`
 
 To apply config for NGINX: `service nginx reload`
 
 or on Windows: `nginx -s reload`
 
-## Tricks
+## Media
+
+Convert between media formats: `ffmpeg -i <input> <output>`
+
+Bulk convert avi to mp4: `for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done`
+
+# Tricks
 
 ### Alert you when a long task is finished
 
