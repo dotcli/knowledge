@@ -677,8 +677,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="shell-commands">Shell Commands</h1>
-<p>Copy files between local and remote: <code>scp ~/rebels.txt dvader@deathstar.com:~/revenge</code></p>
-<p>ssh: <code>ssh pi@192.168.3.8</code></p>
+<h2 id="operating-system">Operating system</h2>
 <p>Copy files securely: <code>rsync -auvP &lt;origin&gt; &lt;destination&gt;</code></p>
 <p>zip: <code>zip &lt;name.zip&gt; &lt;file to be zipped&gt;</code>, <code>zip -r &lt;name.zip&gt; &lt;directory to be zipped&gt;</code></p>
 <p>unzip: <code>unzip &lt;.zip&gt; &lt;optional directory to unzip to&gt;</code></p>
@@ -690,10 +689,15 @@
 <p>chown: </p>
 <p>chmod: </p>
 <h2 id="server-admin">Server Admin</h2>
+<p>Copy files between local and remote: <code>scp ~/rebels.txt dvader@deathstar.com:~/revenge</code></p>
+<p>ssh: <code>ssh pi@192.168.3.8</code></p>
 <p>To restart an apache server, so that configs could apply: <code>sudo service apache2 restart</code></p>
 <p>To apply config for NGINX: <code>service nginx reload</code></p>
 <p>or on Windows: <code>nginx -s reload</code></p>
-<h2 id="tricks">Tricks</h2>
+<h2 id="media">Media</h2>
+<p>Convert between media formats: <code>ffmpeg -i &lt;input&gt; &lt;output&gt;</code></p>
+<p>Bulk convert avi to mp4: <code>for i in *.avi; do ffmpeg -i &quot;$i&quot; &quot;${i%.*}.mp4&quot;; done</code></p>
+<h1 id="tricks">Tricks</h1>
 <h3 id="alert-you-when-a-long-task-is-finished">Alert you when a long task is finished</h3>
 <p>You can make commands execute one after another with <code>&amp;&amp;</code>. For example, <code>cd project &amp;&amp; git status</code> would change directory to the <code>project</code> folder, then display git repo status. A cool way to use this is to alert you when a long-running process has finished, by chaining something like <code>printf \\a</code> (print a &quot;bell&quot; character, which makes the computer beep), or <code>say &quot;Process finished.&quot;</code> (this only works on mac).</p>
 <p>There&apos;s also <code>||</code> which only executes a command if the previous one fails. For example, <code>git clone &lt;some huge repo&gt; || say &quot;Download failed&quot;</code> would alert you if the repo couldn&apos;t be downloaded.</p>
@@ -745,7 +749,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Shell Commands","level":"1.6.3","depth":2,"next":{"title":"Unity Study Guide","level":"1.6.4","depth":2,"path":"programming/unity3d.md","ref":"programming/unity3d.md","articles":[]},"previous":{"title":"machine learning","level":"1.6.2","depth":2,"path":"programming/machine-learning.md","ref":"programming/machine-learning.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"programming/shell.md","mtime":"2020-02-18T18:58:19.741Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-02T18:03:49.311Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Shell Commands","level":"1.6.3","depth":2,"next":{"title":"Unity Study Guide","level":"1.6.4","depth":2,"path":"programming/unity3d.md","ref":"programming/unity3d.md","articles":[]},"previous":{"title":"machine learning","level":"1.6.2","depth":2,"path":"programming/machine-learning.md","ref":"programming/machine-learning.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"programming/shell.md","mtime":"2020-05-04T12:23:07.138Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-04T12:24:15.038Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
