@@ -40,6 +40,13 @@ Convert between media formats: `ffmpeg -i <input> <output>`
 
 Bulk convert avi to mp4: `for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done`
 
+Generate gif from video:
+
+```
+ffmpeg -ss <start second> -t <capture length in second> -i <video file> -vf "fps=20,scale=640:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 output.gif
+```
+This captures a 20 fps gif of 640 width (height is auto, preserving aspect ratio). `-ss` for starting second, `-t` for length of gif in second.
+
 # Tricks
 
 ### Alert you when a long task is finished
