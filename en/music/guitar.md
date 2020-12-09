@@ -58,3 +58,9 @@ In a 4-bar phrase, do something interesting that adds tension at the 3rd bar; re
 **Stick to the rhythm, no matter what.** If you make a mistake, don't try to fix it, just keep playing.
 
 > Most importantly, remember that music is really about emotions, about what you want to express. Focus on being in touch with your feelings, think about what story you'd like to tell. The notes will then come naturally, and listeners will truly connect with what you play.
+
+## Procedure for ripping off a guitar tab
+
+1. Identify & mark sections
+2. Transcribe the melody with a simpler notation (like the number system 简谱). dont get stuck figuring out the harmony, just get melody for now
+3. Transcribe the melody onto GTP, complete with the minute rhythms, and detailed harmonies
