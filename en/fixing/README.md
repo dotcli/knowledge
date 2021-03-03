@@ -25,3 +25,13 @@ __Method 2__: Change the power saving mode for your wireless adapter, then power
 1. Go to Settings > System > Power & Sleep > Additional Power Settings > Change Plan settings > Change advanced power settings
 2. Under Wireless Adapter Settings > Power Saving Mode, change the setting. What setting you change to don't matter, so long as they are different from what you currently have.
 3. Restart the computer.
+
+## Git
+
+### fatal: unable to access 'https://github.com/xxx': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+
+This error occured to me on both macos and Windows when I was using git in China. It seems to be related to the GFW, http proxies, or ipv6, but the cause is unclear.
+
+On mac, I found the workaround by connecting to git via ssh instead of https.
+
+On Windows, I fixed it _somehow_ by running `git init`again in the repo. This does not init an empty repo, but rather rebuilds things in the `.git` folder. Worked like a charm - it works well, but I have no idea what exactly made it work.
