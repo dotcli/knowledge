@@ -3,6 +3,7 @@
 * [简介](README.md)
 * 游戏
     * [游戏设计](game/game-design.md)
+    * [关卡设计](game/level-design.md)
 * [音乐](music/README.md)
     * [日系摇滚作曲特点](music/j-rock.md)
     * [节奏](music/rhythm.md)

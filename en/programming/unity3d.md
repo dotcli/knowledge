@@ -125,6 +125,20 @@ Scriptable objects are assets that represents some custom block of data, that ca
 
 I hear they are neat for [organizing and iterating UI styles](https://www.youtube.com/watch?v=HkUSmI7F304).
 
+## Components
+
+### Collider
+
+Collider can simulate real world physics along with rigidbody, and also trigger collision events that can be handled programmatically - via "isTrigger".
+
+Beware that there are 2D and 3D colliders, and they do _NOT_ share the same event handlers.
+
+### Joints
+
+Many different joints. __Fixed Joint__ is like nesting but without nesting. __Spring Joint__ acts like a spring and you can adjust its length & elasticity. __Hinge Joint__ fixes a rotating point. Most joints can be broken with enouth force.
+
+If the object spins too much while attached to the joint, it's not the joint's fault, but rather the rigidbody's drag.
+
 ## Assets
 
 ### Images
