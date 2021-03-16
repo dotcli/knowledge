@@ -10,7 +10,7 @@
 * [music](music/README.md)
     * [jazz](music/jazz.md)
     * [guitar](music/guitar/guitar.md)
-        * [guitar voicing](music/voicing.md)
+        * [guitar voicing](music/guitar/voicing.md)
     * [vocal](music/vocal.md)
     * [rhythm](music/rhythm.md)
     * [harmony](music/harmony.md)
