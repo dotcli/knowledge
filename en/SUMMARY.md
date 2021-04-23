@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Personal Stats](personal.md)
 * game
     * [Game Design](game/game-design.md)
 * [memex](memex.md)

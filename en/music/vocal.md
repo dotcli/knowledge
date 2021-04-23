@@ -10,7 +10,7 @@ Record these notes:
 
 - the lowest you can go
 - the lowest you can comfortably sing
-- the highest you can comfortably sing (think without forcing your throat)
+- the highest you can comfortably sing (without forcing your throat to tighten)
 - the highest you can sing with your natural voice
 - the highest you can sing with falsetto
 
@@ -32,3 +32,5 @@ Record these notes:
 | lowest | comfortable low | comfortable high | natural | falsetto |
 | :----: |:---------------:| :---------------:| :------:| :-------:|
 | D2/E2  | G2              | D4               | G4      | F5       |
+
+See more personal stats at the [personal](../personal.md) page
