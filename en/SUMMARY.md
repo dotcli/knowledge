@@ -18,6 +18,7 @@
     * [licks](music/licks.md)
     * sheet music
         * [chon - suda](music/sheets/chon-suda.md)
+        * [jiafeng - 等待外卖](music/sheets/jiafeng-等待外卖.md)
 * [programming](programming/README.md)
     * [git](programming/git.md)
     * [machine learning](programming/machine-learning.md)
