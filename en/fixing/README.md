@@ -32,6 +32,14 @@ __Method 2__: Change the power saving mode for your wireless adapter, then power
 
 This error occured to me on both macos and Windows when I was using git in China. It seems to be related to the GFW, http proxies, or ipv6, but the cause is unclear.
 
-On mac, I found the workaround by connecting to git via ssh instead of https.
+On mac, see this Zhihu answer [Failed to connect to raw.githubusercontent.com:443
+](https://zhuanlan.zhihu.com/p/115450863). 
+
+```
+# 7890 和 789 需要换成你自己的端口
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:789
+```
+
+Connecting to git via ssh instead of https also works, but only when you have the option to change remote address. Not for homebrew.
 
 On Windows, I fixed it _somehow_ by running `git init`again in the repo. This does not init an empty repo, but rather rebuilds things in the `.git` folder. Worked like a charm - it works well, but I have no idea what exactly made it work.
