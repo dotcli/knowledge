@@ -13,3 +13,7 @@ Tested on `12019-04-22`
 | lowest | comfortable low | comfortable high | natural | falsetto |
 | :----: |:---------------:| :---------------:| :------:| :-------:|
 | D2/E2  | G2              | D4               | G4      | F5       |
+
+## Sustained Focus Length
+
+I typically maintain focus on one subject for 1.5 hours before losing significant amounts of productivity.

@@ -30,7 +30,7 @@ __Method 2__: Change the power saving mode for your wireless adapter, then power
 
 ### fatal: unable to access 'https://github.com/xxx': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
 
-This error occured to me on both macos and Windows when I was using git in China. It seems to be related to the GFW, http proxies, or ipv6, but the cause is unclear.
+This error occured to me on both MacOS and Windows when I was using git in China. It seems to be related to the GFW, http proxies, or ipv6, but the cause is unclear.
 
 On mac, see this Zhihu answer [Failed to connect to raw.githubusercontent.com:443
 ](https://zhuanlan.zhihu.com/p/115450863). 
