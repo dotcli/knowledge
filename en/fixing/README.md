@@ -43,3 +43,14 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 Connecting to git via ssh instead of https also works, but only when you have the option to change remote address. Not for homebrew.
 
 On Windows, I fixed it _somehow_ by running `git init`again in the repo. This does not init an empty repo, but rather rebuilds things in the `.git` folder. Worked like a charm - it works well, but I have no idea what exactly made it work.
+
+## NPM
+
+### Issues installing packages while in China
+
+This is caused by the connection to NPM registry being slow. To fix, swap the registry with a mirror.
+
+```
+# ~/.npmrc
+registry = https://registry.npm.taobao.org
+```
