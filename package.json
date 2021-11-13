@@ -4,8 +4,7 @@
   "description": "What do I know? Do I know things? Let's find out!",
   "main": "index.js",
   "scripts": {
-    "start": "gitbook serve . docs",
-    "build": "gitbook build . docs && echo wiki.changbai.li >> docs/CNAME"
+    "start": "docsify serve"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dotcli/knowledge/issues"
   },
-  "homepage": "https://github.com/dotcli/knowledge#readme"
+  "homepage": "https://github.com/dotcli/knowledge#readme",
+  "dependencies": {
+    "docsify": "^4.12.1"
+  }
 }
