@@ -15,3 +15,7 @@ Plus, if you are charging low prices and barely scraping by, you would end up ha
 Higher prices, on the other hand, motivates the client to give you challenging projects, and you to do a good job on them, growing your skills in the process.
 
 When negotiating, use the _price anchoring_ technique, or in other words: say the price first. This sets the "anchor" of what the final price would be.
+
+### Setting salary for a regular job
+
+when HR asks you how much you want too early on, don't give a number right away; give them a document explaining why you are worth that price.
