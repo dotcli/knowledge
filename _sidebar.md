@@ -7,6 +7,7 @@
 * [memex](memex.md)
 * [hardware](hardware/README.md)
     * [Projectors](hardware/projector.md)
+    * [Glues](hardware/glue.md)
     * [Circuit Bending](hardware/circuit-bending.md)
 * [music](music/README.md)
     * [jazz](music/jazz.md)
