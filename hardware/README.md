@@ -1,6 +1,6 @@
 # hardware
 
-> [\#hardware](https://memex.changbai.li/#tag-hardware)
+> [\#hardware](https://memex.changbai.li/#tag-hardware), [\#diy](https://memex.changbai.li/#tag-diy)
 
 ## Battery
 
