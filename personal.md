@@ -14,6 +14,10 @@ Tested on `12019-04-22`
 | :----: |:---------------:| :---------------:| :------:| :-------:|
 | D2/E2  | G2              | D4               | G4      | F5       |
 
+## Controlled Exhale Duration
+
+Tested on `12021-11-22` at Nancy's studio: 53 seconds.
+
 ## Sustained Focus Length
 
 I typically maintain focus on one subject for 1.5 hours before losing significant amounts of productivity.
