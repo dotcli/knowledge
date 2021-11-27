@@ -13,6 +13,7 @@
     * [jazz](music/jazz.md)
     * [guitar](music/guitar/guitar.md)
         * [guitar voicing](music/guitar/voicing.md)
+        * [pedagogy](music/guitar/pedagogy.md)
     * [vocal](music/vocal.md)
     * [rhythm](music/rhythm.md)
     * [harmony](music/harmony.md)

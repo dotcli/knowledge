@@ -16,7 +16,7 @@ Tested on `12019-04-22`
 
 ## Controlled Exhale Duration
 
-Tested on `12021-11-22` at Nancy's studio: 53 seconds.
+Tested on `12021-11-22` at Nancy's studio: __53 seconds__.
 
 ## Sustained Focus Length
 
