@@ -9,6 +9,7 @@
     * [Projectors](hardware/projector.md)
     * [Glues](hardware/glue.md)
     * [Circuit Bending](hardware/circuit-bending.md)
+    * [Suppliers](hardware/supplier.md)
 * [music](music/README.md)
     * [jazz](music/jazz.md)
     * [guitar](music/guitar/guitar.md)

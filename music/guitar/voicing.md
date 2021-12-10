@@ -51,3 +51,11 @@ You can get half diminished chord by moving the upper shape of a major 7th chord
 #### FURTHER STUDY
 
 [The Jazz Guitar Chord Dictionary](https://www.jazzguitar.be/ebooks/The_Jazz_Guitar_Chord_Dictionary.pdf)
+
+# Pat Martino's voicing theory
+
+He points out that there are "automatics" to every instrument's design. For the piano, it's the 7 white key major scale + 5 black key pentatonic, adding to all 12. For the guitar, it's the stacking of major 3s (augmented triad) repeating every 4 frets horizontally, or the stacking of minor 3s (diminished chord) repeating every 3 frets.
+
+He then derives major and minor chords from the augmented triad, by shifting one of the 3 notes a fret up or down. E.g. With the augmented triad C, E, Ab, shifting Ab down one fret gives you the C major chord C, E, G. Then you can learn to play the same chord 4 frets over, again by shifting the Ab down.
+
+This approach also helps derive and show the relative minor of a key. With the same example, shifting Ab up one fret gives us C, E, A - the relative minor of C Major.

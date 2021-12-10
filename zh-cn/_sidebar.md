@@ -10,6 +10,7 @@
 * [编程](zh-cn/programming/README.md)
     * [Unity3D](zh-cn/programming/unity3d.md)
 * [硬件](zh-cn/hardware/README.md)
+    * [供应商](zh-cn/hardware/supplier.md)
 * [健康](zh-cn/health/README.md)
     * [急救](zh-cn/health/first-aid.md)
 * 饮食
