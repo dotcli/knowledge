@@ -41,6 +41,7 @@
 * [teaching](teaching.md)
 * [health](health/README.md)
     * [First Aid](health/first-aid.md)
+    * [Routine](health/routine.md)
 * food
     * [cooking](food/cooking.md)
     * [recipes](food/recipes.md)
