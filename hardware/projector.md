@@ -2,7 +2,7 @@
 
 ## Knowledge
 
-[Great ref article](http://www.creativeapplications.net/tutorials/guide-to-projectors-for-interactive-installations/) covering projector types in relation to creative installations.
+[Great ref article](https://www.ucl.ac.uk/slade/know/3672) covering projector types in relation to creative installations.
 
 Fun hack for the monochromatic works: 9000 lumen = $600 - colours [Link](http://projection-mapping.org/hacking-your-projector-9000-lumens-for-600/)
 
