@@ -20,7 +20,7 @@ Restart: `sudo shutdown -r now`
 
 chown: 
 
-chmod: 
+Make a file executable: `chmod 755 <script.sh>`
 
 ## Server Admin
 
