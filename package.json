@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/dotcli/knowledge#readme",
   "dependencies": {
-    "docsify": "^4.12.1"
+    "docsify": "^4.12.2"
+  },
+  "overrides": {
+    "marked": "^4.0.10"
   }
 }
