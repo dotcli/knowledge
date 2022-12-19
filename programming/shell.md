@@ -26,7 +26,7 @@ Make a file executable: `chmod 755 <script.sh>`
 
 Copy files between local and remote: `scp ~/rebels.txt dvader@deathstar.com:~/revenge`
 
-Copy all files from current directory to a remote location: `scp -r "${PWD}" dvader@deathstar.com:~/revenge`
+Copy all files from current directory into a remote location: `scp -r ./* dvader@deathstar.com:~/revenge`
 
 ssh: `ssh pi@192.168.3.8`
 
